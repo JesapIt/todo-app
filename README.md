@@ -86,7 +86,11 @@ Per eseguire il backend, prima di tutto dobbiamo installare le dipendenze necess
 cd todo-app/backend
 pip install -r requirements.txt
 ```
-
+oppure
+```bash
+cd todo-app/backend
+python3 -m pip install -r requirements.txt
+```
 Per eseguire il backend, eseguire il comando:
 
 ```bash
