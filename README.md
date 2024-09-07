@@ -38,7 +38,7 @@ Utilizzare il file database.json per salvare le attività come:
       "data": "07/09/24",
       "attivita": "palestra"
     }
-  ]
+]
 ```
 
 Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
