@@ -7,8 +7,8 @@
   - [FRONTEND](#frontend)
       - [CONSIGLI](#consigli)
   - [BACKEND](#backend)
-    - [ISTRUZIONI](#istruzioni)
   - [DATABASE](#database)
+  - [ISTRUZIONI](#istruzioni)
   - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
     - [FRONTEND](#frontend-1)
     - [BACKEND](#backend-1)
@@ -43,8 +43,6 @@ Per il backend devo essere implementati 3 endpoint minimo:
 5. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
    1. ID della task da eliminare rimuovere.
 
-### ISTRUZIONI
-
 ## DATABASE
 
 Utilizzare il file `db.json` per salvare le attività come:
@@ -67,6 +65,8 @@ Utilizzare il file `db.json` per salvare le attività come:
 ```
 
 Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
+
+## ISTRUZIONI
 
 ## CRITERI DI VALUTAZIONE
 
