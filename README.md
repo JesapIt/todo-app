@@ -7,11 +7,13 @@
   - [FRONTEND](#frontend)
       - [CONSIGLI](#consigli)
   - [BACKEND](#backend)
-    - [ISTRUZIONI](#istruzioni)
   - [DATABASE](#database)
-  - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
+  - [ISTRUZIONI](#istruzioni)
     - [FRONTEND](#frontend-1)
     - [BACKEND](#backend-1)
+  - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
+    - [FRONTEND](#frontend-2)
+    - [BACKEND](#backend-2)
 
 ### Descrizione della TODO APP:
 
@@ -43,8 +45,6 @@ Per il backend devo essere implementati 3 endpoint minimo:
 5. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
    1. ID della task da eliminare rimuovere.
 
-### ISTRUZIONI
-
 ## DATABASE
 
 Utilizzare il file `db.json` per salvare le attività come:
@@ -67,6 +67,33 @@ Utilizzare il file `db.json` per salvare le attività come:
 ```
 
 Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
+
+## ISTRUZIONI
+
+Per scaricare il progetto, eseguire il comando sul terminale:
+
+```bash
+git clone https://github.com/JesapIt/todo-app.git
+```
+
+### FRONTEND
+
+### BACKEND
+
+Per eseguire il backend, prima di tutto dobbiamo installare le dipendenze necessarie. Per farlo, eseguire il comando:
+
+```bash
+cd todo-app/backend
+pip install -r requirements.txt
+```
+
+Per eseguire il backend, eseguire il comando:
+
+```bash
+python main.py
+```
+
+In questo modo, il backend sarà in ascolto sulla porta 8080.
 
 ## CRITERI DI VALUTAZIONE
 
