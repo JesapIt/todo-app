@@ -1,16 +1,24 @@
 # Specifica dei requisiti TO DO APP
+
 ### Descrizione applicazione TO DO:
+
 - Un campo di input testuale per permettere all'utente di inserire nuove attività
 - Un bottone "Aggiungi" per salvare la nuova attività inserita
 - Una lista che mostra tutte le attività inserite
 - La possibilità di marcare le attività come completate
 - Un'opzione per eliminare le singole attività
+
 ## FRONTEND
+
 - Implementare tutti i punti presenti nella descrizione dell’applicazione.
 - Scrivere codice sul file App.jsx (todoapp-jesap->scr->App.jsx).
+
 #### Consigli
+
 Per la strutturazione del layout della pagina, utilizzare flexbox. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+
 ## BACKEND
+
 Per il backend devo essere implementati 3 endpoint minimo:
 1. Il primo si occuperà della creazione della task. Quindi dovrà prendere in entrata 3 parametri:
    1. ID univoco della task;
@@ -21,7 +29,11 @@ Per il backend devo essere implementati 3 endpoint minimo:
    2. Nome dell’attività.
 5. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
    1. ID della task da eliminare rimuovere.
+
+### ISTRUZIONI
+
 ## DATABASE
+
 Utilizzare il file `db.json` per salvare le attività come:
 
 ```json
@@ -49,8 +61,6 @@ Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
 
 ### BACKEND
 
-
-
-
-
-Sarà fornito del codice precompilato sia per Frontend e Backend.
+I criteri di valutazione del backend sono principalmente due:
+- Correttezza del metodo HTTP utilizzato per i vari endpoint;
+- Correttezza nella risposta che l'endpoint ritorna.
