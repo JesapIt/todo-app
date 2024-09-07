@@ -15,7 +15,7 @@ Per il backend devo essere implementati 3 endpoint minimo:
 1. Il primo si occuperà della creazione della task. Quindi dovrà prendere in entrata 3 parametri:
    1. ID univoco della task;
    2. Data di creazione della task;
-   3. 3. Nome della task.
+   3.  Nome della task.
 3. Il secondo si occuperà di ottenere le task per stamparle. Dovranno ritornare i seguenti dati:
    1. Data per ordinare le task in ordine crescente: da quella che è stata postata per prima a quella che è stata postata per ultima;
    2. Nome dell’attività.
@@ -24,7 +24,7 @@ Per il backend devo essere implementati 3 endpoint minimo:
 ## DATABASE
 Utilizzare il file database.json per salvare le attività come:
 
-```
+```json
 //esempio: database.json
 
 {
