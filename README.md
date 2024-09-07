@@ -47,6 +47,9 @@ Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
 
 ## CRITERI DI VALUTAZIONE
 
+### FRONTEND
+
+### BACKEND
 
 
 
