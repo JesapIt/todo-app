@@ -13,14 +13,14 @@ Per la strutturazione del layout della pagina, utilizzare flexbox. https://css-t
 ## BACKEND
 Per il backend devo essere implementati 3 endpoint minimo:
 1. Il primo si occuperà della creazione della task. Quindi dovrà prendere in entrata 3 parametri:
-  a. ID univoco della task;
-  b. Data di creazione della task;
-  c. Nome della task.
-2. Il secondo si occuperà di ottenere le task per stamparle. Dovranno ritornare i seguenti dati:
-  a. Data per ordinare le task in ordine crescente: da quella che è stata postata per prima a quella che è stata postata per ultima;
-  b. Nome dell’attività.
-3. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
-  a. ID della task da eliminare rimuovere.
+   1. ID univoco della task;
+   2. Data di creazione della task;
+   3. 3. Nome della task.
+3. Il secondo si occuperà di ottenere le task per stamparle. Dovranno ritornare i seguenti dati:
+   1. Data per ordinare le task in ordine crescente: da quella che è stata postata per prima a quella che è stata postata per ultima;
+   2. Nome dell’attività.
+5. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
+   1. ID della task da eliminare rimuovere.
 ## DATABASE
 Utilizzare il file database.json per salvare le attività come:
 
