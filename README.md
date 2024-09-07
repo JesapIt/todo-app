@@ -80,6 +80,21 @@ git clone https://github.com/JesapIt/todo-app.git
 
 ### BACKEND
 
+Per eseguire il backend, prima di tutto dobbiamo installare le dipendenze necessarie. Per farlo, eseguire il comando:
+
+```bash
+cd todo-app/backend
+pip install -r requirements.txt
+```
+
+Per eseguire il backend, eseguire il comando:
+
+```bash
+python main.py
+```
+
+In questo modo, il backend sarà in ascolto sulla porta 8080.
+
 ## CRITERI DI VALUTAZIONE
 
 ### FRONTEND
