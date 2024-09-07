@@ -22,10 +22,10 @@ Per il backend devo essere implementati 3 endpoint minimo:
 5. Il terzo si occuperà della cancellazione della task (univoca sia se la task è stata completata sia se la task è stata cancellata). I dati richiesti saranno:
    1. ID della task da eliminare rimuovere.
 ## DATABASE
-Utilizzare il file database.json per salvare le attività come:
+Utilizzare il file `db.json` per salvare le attività come:
 
 ```json
-//esempio: database.json
+//esempio: db.json
 
 [
     {
