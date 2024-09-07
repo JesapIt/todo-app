@@ -1,6 +1,19 @@
 # Specifica dei requisiti TO DO APP
 
-### Descrizione applicazione TO DO:
+## TABLE OF CONTENTS
+- [Specifica dei requisiti TO DO APP](#specifica-dei-requisiti-to-do-app)
+  - [TABLE OF CONTENTS](#table-of-contents)
+    - [Descrizione della TODO APP:](#descrizione-della-todo-app)
+  - [FRONTEND](#frontend)
+      - [CONSIGLI](#consigli)
+  - [BACKEND](#backend)
+    - [ISTRUZIONI](#istruzioni)
+  - [DATABASE](#database)
+  - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
+    - [FRONTEND](#frontend-1)
+    - [BACKEND](#backend-1)
+
+### Descrizione della TODO APP:
 
 - Un campo di input testuale per permettere all'utente di inserire nuove attività
 - Un bottone "Aggiungi" per salvare la nuova attività inserita
@@ -13,7 +26,7 @@
 - Implementare tutti i punti presenti nella descrizione dell’applicazione.
 - Scrivere codice sul file App.jsx (todoapp-jesap->scr->App.jsx).
 
-#### Consigli
+#### CONSIGLI
 
 Per la strutturazione del layout della pagina, utilizzare flexbox. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
