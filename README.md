@@ -9,9 +9,11 @@
   - [BACKEND](#backend)
   - [DATABASE](#database)
   - [ISTRUZIONI](#istruzioni)
-  - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
     - [FRONTEND](#frontend-1)
     - [BACKEND](#backend-1)
+  - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
+    - [FRONTEND](#frontend-2)
+    - [BACKEND](#backend-2)
 
 ### Descrizione della TODO APP:
 
@@ -67,6 +69,16 @@ Utilizzare il file `db.json` per salvare le attività come:
 Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
 
 ## ISTRUZIONI
+
+Per scaricare il progetto, eseguire il comando sul terminale:
+
+```bash
+git clone https://github.com/JesapIt/todo-app.git
+```
+
+### FRONTEND
+
+### BACKEND
 
 ## CRITERI DI VALUTAZIONE
 
