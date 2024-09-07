@@ -27,8 +27,7 @@ Utilizzare il file database.json per salvare le attività come:
 ```json
 //esempio: database.json
 
-{
-  "lista_attivita": [
+[
     {
       "id": 1,
       "data": "07/09/24",
@@ -40,7 +39,6 @@ Utilizzare il file database.json per salvare le attività come:
       "attivita": "palestra"
     }
   ]
-}
 ```
 
 Leggi questo: https://hackernoon.com/how-to-read-and-write-json-files-in-python
