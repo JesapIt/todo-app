@@ -25,16 +25,19 @@ const TodoApp = () => {
     };
 
     return (
-        <div>
-            <h1>TodoApp</h1>
-            <div>
+        <div className='flex flex-col p-10'>
+            <p className='text-3xl font-bold'>
+                TodoApp
+            </p>
+            <div className='flex flex-col mt-5'>
                 <input
+                    className='border border-black'
                     type="text"
-                    value={/* TODO: Aggiungi il valore dell'input */}
+                    //value={} /* TODO: Aggiungi il valore dell'input */
                     onChange={handleInputChange}
                     placeholder="Aggiungi un nuovo todo"
                 />
-                <button onClick={handleAddTodo}>Aggiungi</button>
+                <button className="bg-black text-white rounded-2xl p-3 hover:bg-gray-400 mt-5" onClick={handleAddTodo}>Aggiungi</button>
             </div>
             <ul>
                 {/* TODO: Usa map per iterare sui todos e renderizzarli come elementi della lista */}
