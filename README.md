@@ -115,6 +115,7 @@ In questo modo, il backend sarà in ascolto sulla porta 8080.
 
 I criteri di valutazione del frontend sono:
 - Corretta implementazione dei punti presenti nella descrizione della todo app
+- Corretto utilizzo di tailwind.css 
 - Collegamento frontend con backend
 
 ### BACKEND
