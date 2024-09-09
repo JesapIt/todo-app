@@ -32,7 +32,7 @@ const TodoApp = () => {
     const handleAddTodo = () => {
         // TODO: Implementa l'aggiunta di un nuovo todo
         // Suggerimento 1: Controlla se inputValue non è vuoto, poi aggiungi il nuovo todo alla lista
-        // Suggerimento 2: un elemento della lista todos deve essere un oggetto con i seguenti campi: es. {id: 1, data: Date.now(), attivita: "studiare react", completato: false}
+        // Suggerimento 2: un elemento della lista todos deve essere un oggetto con i seguenti campi: es. {attivita: "studiare react"}
         
 
     };
