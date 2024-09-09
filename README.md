@@ -24,7 +24,7 @@
 ## FRONTEND
 
 - Implementare tutti i punti presenti nella descrizione dell’applicazione.
-- Scrivere codice sul file App.jsx (todoapp-jesap->scr->App.jsx).
+- Scrivere codice sul file App.jsx (todo-app -> src-> App.jsx).
 
 ## BACKEND
 
