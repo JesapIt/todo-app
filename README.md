@@ -5,7 +5,6 @@
   - [TABLE OF CONTENTS](#table-of-contents)
     - [Descrizione della TODO APP:](#descrizione-della-todo-app)
   - [FRONTEND](#frontend)
-      - [CONSIGLI](#consigli)
   - [BACKEND](#backend)
   - [DATABASE](#database)
   - [ISTRUZIONI](#istruzioni)
@@ -20,17 +19,12 @@
 - Un campo di input testuale per permettere all'utente di inserire nuove attività
 - Un bottone "Aggiungi" per salvare la nuova attività inserita
 - Una lista che mostra tutte le attività inserite
-- La possibilità di marcare le attività come completate
 - Un'opzione per eliminare le singole attività
 
 ## FRONTEND
 
 - Implementare tutti i punti presenti nella descrizione dell’applicazione.
 - Scrivere codice sul file App.jsx (todoapp-jesap->scr->App.jsx).
-
-#### CONSIGLI
-
-Per la strutturazione del layout della pagina, utilizzare flexbox. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 
 ## BACKEND
 
@@ -76,7 +70,23 @@ Per scaricare il progetto, eseguire il comando sul terminale:
 git clone https://github.com/JesapIt/todo-app.git
 ```
 
+O scaricare direttamente il zip cliccando su:
+
+Code -> Download ZIP
+
 ### FRONTEND
+
+Per eseguire il FRONTEND, prima di tutto dobbiamo installare le dipendenze necessarie. Per farlo, eseguire il comando:
+
+```bash
+cd todo-app/frontend
+npm install
+```
+Per eseguire il frontend, eseguire il comando:
+
+```bash
+npm run dev
+```
 
 ### BACKEND
 
@@ -102,6 +112,10 @@ In questo modo, il backend sarà in ascolto sulla porta 8080.
 ## CRITERI DI VALUTAZIONE
 
 ### FRONTEND
+
+I criteri di valutazione del frontend sono:
+- Corretta implementazione dei punti presenti nella descrizione della todo app
+- Collegamento frontend con backend
 
 ### BACKEND
 
