@@ -18,7 +18,7 @@ const TodoApp = () => {
 
         // Esempio di implementazione:
         // try {
-        //     const response = await axios.get('/api/todos');
+        //     const response = await axios.get('http://localhost:numero_porta/endpoint');
         //     setTodos(response.data);
         // } catch (error) {
         //     console.error('Errore nel recupero dei todos:', error);
@@ -43,6 +43,7 @@ const TodoApp = () => {
     };
 
     return (
+        //Per la strutturazione del layout della pagina, utilizzare flexbox. https://css-tricks.com/snippets/css/a-guide-to-flexbox/
         <div className='flex flex-col p-10'>
             <p className='text-3xl font-bold'>
                 TodoApp
