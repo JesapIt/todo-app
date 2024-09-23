@@ -123,3 +123,7 @@ I criteri di valutazione del frontend sono:
 I criteri di valutazione del backend sono principalmente due:
 - Correttezza del metodo HTTP utilizzato per i vari endpoint;
 - Correttezza nella risposta che l'endpoint ritorna.
+- 
+### ESEMPIO DI TABELLA DI VALUTAZIONE
+
+
