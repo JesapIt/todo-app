@@ -13,6 +13,7 @@
   - [CRITERI DI VALUTAZIONE](#criteri-di-valutazione)
     - [FRONTEND](#frontend-2)
     - [BACKEND](#backend-2)
+    - [ESEMPIO DI TABELLA DI VALUTAZIONE](#esempio-di-tabella-di-valutazione)
 
 ### Descrizione della TODO APP:
 
@@ -123,7 +124,20 @@ I criteri di valutazione del frontend sono:
 I criteri di valutazione del backend sono principalmente due:
 - Correttezza del metodo HTTP utilizzato per i vari endpoint;
 - Correttezza nella risposta che l'endpoint ritorna.
-- 
+
 ### ESEMPIO DI TABELLA DI VALUTAZIONE
 
-
+| REQUISITO | SI | NO | NOTE |
+| --- | --- | --- | --- |
+| FUNZIONALITA' |
+| La task viene creata correttamente | | | |
+| La task può essere modificata | | | |
+| La task può essere eliminata | | | |
+| FRONTEND |
+| Corretta implementazione dei punti presenti nella descrizione della todo app | | | |
+| Corretto utilizzo di tailwind.css | | | |
+| Collegamento frontend con backend | | | |
+| BACKEND |
+| Corretta implementazione della creazione della task | | | |
+| Corretta implementazione della lettura della task | | | |
+| Corretta implementazione della cancellazione della task | | | |
