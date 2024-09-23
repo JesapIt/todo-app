@@ -14,6 +14,7 @@
     - [FRONTEND](#frontend-2)
     - [BACKEND](#backend-2)
     - [ESEMPIO DI TABELLA DI VALUTAZIONE](#esempio-di-tabella-di-valutazione)
+  - [CONSEGNA DEL PROGETTO](#consegna-del-progetto)
 
 ### Descrizione della TODO APP:
 
@@ -141,3 +142,11 @@ I criteri di valutazione del backend sono principalmente due:
 | Corretta implementazione della creazione della task | | | |
 | Corretta implementazione della lettura della task | | | |
 | Corretta implementazione della cancellazione della task | | | |
+
+## CONSEGNA DEL PROGETTO
+
+Per consegnare il progetto, creare un nuovo account su GitHub e creare un nuovo repository chiamato `todo-app-cognome` che sia pubblica. Ricordatevi di initilizzare il repository con un README.md.
+
+Il secondo passo è quello di caricare il progetto su GitHub. Per farlo scaricare GitHub Desktop da qui: https://desktop.github.com/. Loggarti con il tuo account e selezionare add -> clone repository -> e selezionare il repository appena creato.
+
+Dopo spostare tutti i file del progetto all'interno della cartella del repository. Infine, fare il commit e il push del progetto.
