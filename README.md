@@ -132,7 +132,6 @@ I criteri di valutazione del backend sono principalmente due:
 | --- | --- | --- | --- |
 | FUNZIONALITA' |
 | La task viene creata correttamente | | | |
-| La task può essere modificata | | | |
 | La task può essere eliminata | | | |
 | FRONTEND |
 | Corretta implementazione dei punti presenti nella descrizione della todo app | | | |
